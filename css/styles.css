@@ -10,6 +10,44 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
+button {
+  font-family: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.section-title span {
+  color: #fd9222;
+}
+
+/*---------------- HEADER------------------- */
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -30,6 +68,60 @@ a {
   color: #111;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #fd9222;
+}
+
+/* .header-menu-link:is(:hover, :focus) {
+  color: #fd9222;  
+} */
+
+/* .header-menu-link:focus {
+  color: #fd9222;
+} */
+
+/*---------------- HERO------------------- */
+
+.hero {
+  background-color: #1e1823;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-anchor-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-anchor-link:focus {
+  color: #fd9222;
+}
+
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+/*---------------- FEATURES------------------- */
+
 .features {
   background-color: #1e1823;
 }
@@ -45,11 +137,159 @@ a {
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
+/*---------------- ------------------------- */
 
-footer li a {
-  color: purple;
+/*---------------- TASTE------------------- */
+
+.taste {
 }
 
-ul a {
-  color: tomato;
+.taste-title {
+}
+
+.taste-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-item-image {
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/*---------------- MADE------------------- */
+
+.made {
+}
+
+.made-title {
+}
+
+.made-image {
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+
+.made-list {
+}
+.made-item {
+}
+.made-item-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/*---------------- REVIEWS------------------- */
+
+.reviews {
+}
+.reviews-title {
+}
+
+.reviews-list {
+}
+
+.reviews-item {
+}
+
+.reviews-image {
+}
+
+.reviews-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.reviews-item-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.reviews-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-title span {
+  color: #fd9222;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+.footer-address {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-navigation {
+}
+
+.footer-menu-list {
+}
+
+.footer-menu-item {
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
 }
