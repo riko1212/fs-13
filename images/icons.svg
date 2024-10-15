@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="icon-instagram" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M22.667 2.667H9.334a6.667 6.667 0 0 0-6.667 6.667v13.333a6.667 6.667 0 0 0 6.667 6.667h13.333a6.667 6.667 0 0 0 6.667-6.667V9.334a6.667 6.667 0 0 0-6.667-6.667z"/>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M21.333 15.16a5.334 5.334 0 0 1-10.548 1.596l-.004-.03a5.334 5.334 0 0 1 10.548-1.596l.004.03z"/>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M21.333 15.16a5.334 5.334 0 0 1-10.548 1.596l-.004-.03a5.334 5.334 0 0 1 10.548-1.596l.004.03zm2-6.493h.013m-.013 0h.013"/>
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M30.667 4a14.37 14.37 0 0 1-4.084 2.013l-.103.027a5.973 5.973 0 0 0-10.479 4.004v-.004 1.333a14.154 14.154 0 0 1-6.838-1.55l.08.037C7.15 8.807 4.683 6.297 3.335 4.38c0 0-4.667 12.953 7.333 18.287a15.387 15.387 0 0 1-9.364 2.666l.031.001c12 6.667 26.667 0 26.667-15.333 0-.372-.037-.741-.107-1.107a10.277 10.277 0 0 0 2.758-4.822l.015-.071z"/>
+    </symbol>
+    <symbol id="icon-chocolate" viewBox="0 0 32 32">
+      <path fill="#fcf1e0" style="fill: var(--color1, #fcf1e0)" d="M3.944 20.076l10.776-17.424 0.64-0.675 8.236 5.491 0.057 3.315 2.009 3.28-8.88 14.076-12.84-8.063z"></path>
+      <path fill="none" stroke="#fd9222" style="stroke: var(--color2, #fd9222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M21.635 23.88l-14.187-8.864M11.361 8.599l14.185 8.864M10.629 25.864l11.736-19.249M27.176 14.788c-3.040-1.899-4.233-3.383-2.277-6.591l-9.627-6.016-11.735 19.251 14.185 8.864 9.453-15.507z"></path>
+    </symbol>
+  </defs>
+</svg>
