@@ -32,6 +32,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 1166px;
   padding-left: 15px;
@@ -119,6 +123,7 @@ img {
   letter-spacing: -0.02em;
   color: #111;
   position: relative;
+  transition: color 300ms ease;
 }
 
 .header-menu-item:first-child .header-menu-link::after {
@@ -228,6 +233,15 @@ img {
   background-color: #fd9222;
   border-radius: 100px;
   border: none;
+  /* transition-property: background-color, color;
+  transition-duration: 300ms, 350ms;
+  transition-timing-function: ease, linear; */
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.hero-btn:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
 
 .hero-anchor-link {
@@ -321,6 +335,15 @@ img {
   width: calc((100% - 3 * 19px) / 4);
 }
 
+.taste-item:hover .taste-cover-text {
+  transform: translateY(0);
+}
+
+.taste-cover-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
 .taste-item-image {
   margin: 0 auto 36px;
   /* display: block; */
@@ -333,6 +356,23 @@ img {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #111;
+}
+
+.taste-cover-text {
+  position: absolute;
+  background-color: #fd9222;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 300ms ease;
+  overflow: auto;
 }
 
 /*---------------- MADE------------------- */
