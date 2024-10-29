@@ -35,6 +35,8 @@ address {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -42,16 +44,19 @@ button {
 }
 
 .container {
-  width: 1166px;
+  max-width: 375px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
 .container-narrow {
-  width: 1094px;
+  /* width: 1094px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px; */
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -71,8 +76,10 @@ button {
 
 .section-title {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 1.17;
+  /* font-size: 24px;
+  line-height: 1.17; */
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
@@ -275,17 +282,22 @@ button {
 
 .features {
   background-color: #1e1823;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .features-list {
   display: flex;
-  gap: 70px;
+  flex-wrap: wrap;
+  /* gap: 70px; */
+  gap: 20px;
 }
 
 .features-item {
-  flex-basis: calc((100% - 2 * 70px) / 3);
+  /* flex-basis: calc((100% - 2 * 70px) / 3); */
+  width: 100%;
 }
 
 .features-subtitle {
@@ -305,13 +317,17 @@ button {
 /*---------------- TASTE------------------- */
 
 .taste {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  /* padding-top: 100px;
+  padding-bottom: 50px; */
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .taste-title {
-  max-width: 411px;
-  margin: 0 auto 28px;
+  /* max-width: 411px; */
+  max-width: 283px;
+  /* margin: 0 auto 28px; */
+  margin: 0 auto 24px;
 }
 
 .taste-text {
@@ -322,7 +338,8 @@ button {
   color: #111;
   margin-bottom: 50px;
   max-width: 486px;
-  margin: 0 auto 50px;
+  /* margin: 0 auto 50px; */
+  margin: 0 auto 32px;
 }
 
 .taste-list {
@@ -330,14 +347,16 @@ button {
   flex-wrap: wrap;
   /* column-gap: 19px;
   row-gap: 24px; */
-  gap: 24px 19px;
+  /* gap: 24px 19px; */
+  gap: 20px;
 }
 
 .taste-item {
   border: 1px solid #fd9222;
   border-radius: 15px;
   padding: 28px 32px;
-  width: calc((100% - 3 * 19px) / 4);
+  /* width: calc((100% - 3 * 19px) / 4); */
+  width: 100%;
 }
 
 .taste-item:hover .taste-cover-text {
@@ -383,16 +402,20 @@ button {
 /*---------------- MADE------------------- */
 
 .made {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .made-title {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  margin-bottom: 32px;
 }
 
 .made-wrapper {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   align-items: center;
 }
@@ -401,8 +424,10 @@ button {
 }
 
 .made-content {
-  padding: 32px;
+  /* padding: 32px; */
+  padding: 20px 14px;
   background-color: #ffffff;
+  border-radius: 15px;
 }
 
 .made-subtitle {
@@ -410,14 +435,16 @@ button {
   font-size: 18px;
   line-height: 1.33;
   color: #111;
-  margin-bottom: 28px;
+  /* margin-bottom: 28px; */
+  margin-bottom: 20px;
 }
 
 .made-list {
 }
 
 .made-item {
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
+  margin-bottom: 18px;
   position: relative;
   padding-left: 16px;
 }
@@ -448,21 +475,26 @@ button {
 /*---------------- REVIEWS------------------- */
 
 .reviews {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  /* padding-top: 50px;
+  padding-bottom: 100px; */
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 .reviews-title {
-  margin-bottom: 90px;
+  /* margin-bottom: 90px; */
+  margin-bottom: 74px;
 }
 
 .reviews-list {
   margin-bottom: 50px;
   display: flex;
-  gap: 28px;
+  flex-wrap: wrap;
+  gap: 60px;
 }
 
 .reviews-item {
-  width: calc((100% - 56px) / 3);
+  /* width: calc((100% - 56px) / 3); */
+  width: 100%;
   box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
   background: #fff;
   border: 1px solid rgba(17, 17, 17, 0.1);
@@ -794,4 +826,158 @@ button {
   background-color: #fd9222;
   border: none;
   fill: #ffffff;
+}
+
+/* -------------Media--------------------- */
+
+@media screen and (min-width: 768px) {
+  .container-narrow,
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .made > .container {
+    max-width: 678px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .features-list {
+    gap: 32px;
+  }
+
+  .features-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  .taste {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .taste-title {
+    max-width: 411px;
+    margin: 0 auto 28px;
+  }
+
+  .taste-text {
+    margin: 0 auto 50px;
+  }
+
+  .taste-list {
+    gap: 32px;
+  }
+
+  .taste-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .made {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .made-title {
+    margin-bottom: 50px;
+  }
+
+  .made-content {
+    padding: 32px;
+  }
+
+  .made-subtitle {
+    margin-bottom: 28px;
+  }
+
+  .reviews {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  .reviews-title {
+    margin-bottom: 90px;
+  }
+
+  .reviews-list {
+    gap: 60px 16px;
+    justify-content: center;
+  }
+
+  .reviews-item {
+    width: calc((100% - 16px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-narrow {
+    width: 100%;
+    max-width: 1094px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container,
+  .made > .container {
+    width: 100%;
+    max-width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .features-list {
+    gap: 70px;
+  }
+
+  .features-item {
+    flex-basis: calc((100% - 2 * 70px) / 3);
+  }
+
+  .taste {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .taste-list {
+    gap: 19px;
+  }
+
+  .taste-item {
+    width: calc((100% - 3 * 19px) / 4);
+  }
+
+  .made {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .made-wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .made-item {
+    margin-bottom: 24px;
+  }
+
+  .reviews {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .reviews-list {
+    gap: 28px;
+  }
+
+  .reviews-item {
+    width: calc((100% - 56px) / 3);
+  }
 }
